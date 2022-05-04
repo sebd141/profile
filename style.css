@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&family=Space+Mono&display=swap');
+
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  border: 2px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px 20px;
+  padding: 5px 5px;
+}
+
+body {
+  background-color: #EBEBEB;
+  font-family: 'Roboto', sans-serif;
+  color: #4F5D75;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  margin: 8px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #EF8354;
+  font-weight: 300;
+  font-size: 70px;
+}
+
+a:hover {
+  color: #4F5D75;
+}
+
+li {
+  font-size: 15px;
+  list-style: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-size {
+  width: 35%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: -10px 5px;
+  background-color:#EF8354;
+  color:#EBEBEB;
+  font-size: 15px;
+  margin: 20px 20px;
+  display:inline-block;
+  border-radius: 5px;
+  font-size:20px
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-family {
+  display:inline-block;
+  width: 60%;
+  border-radius: 10px;
+  margin-bottom: 10px
+}
